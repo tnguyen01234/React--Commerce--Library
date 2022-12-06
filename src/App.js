@@ -1,4 +1,4 @@
-import Nav from "./Components/Nav";
+import Nav from "./Comp/Nav";
 import Footer from "./Comp/Footer";
 import "./index.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

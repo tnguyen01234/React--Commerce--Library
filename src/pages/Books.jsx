@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Book from '../Components/ui/Book'
+import Book from '../Comp/ui/Book'
 
 export default function Books({ books: initialBooks }) {
     const [books, setBooks] = useState(initialBooks);

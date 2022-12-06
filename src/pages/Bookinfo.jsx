@@ -2,9 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import Book from "../Components/ui/Book";
-import Price from "../Components/ui/Price";
-import Rating from "../Components/ui/Rating";
+import Book from "../Comp/ui/Book";
+import Price from "../Comp/ui/Price";
+import Rating from "../Comp/ui/Rating";
 import Cart from "./Cart";
 
 export default function Bookinfo({ books, addToCart, cart }) {
